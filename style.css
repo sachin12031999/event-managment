@@ -1,0 +1,23 @@
+.navbar{
+    padding: 30px;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 150px;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+.nav-link{
+    font-weight: bold;
+    font-style: italic;
+    color: #ffff !important;
+    margin: 5px 0 0 0 ;
+    /* transition: 0.5s; */
+}
+.nav-link:hover{
+
+}
