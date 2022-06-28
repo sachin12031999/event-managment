@@ -7,17 +7,25 @@
     font-weight: bold;
     font-style: italic;
     padding-left: 150px;
-    font-size: 30px;
+    font-size: 50px;
     text-transform: capitalize;
 
 }
-.nav-link{
+.navbar-nav{
+    padding-left: 300px;
+}
+
+.nav-item {
     font-weight: bold;
     font-style: italic;
-    color: #ffff !important;
-    margin: 5px 0 0 0 ;
-    /* transition: 0.5s; */
-}
-.nav-link:hover{
 
+    color: #fff !important;
+    margin-left: 50px ;
+    transition: 0.5s;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+.nav-item:hover{
+    transform: translate(-15px );
+background: #dc3445;
 }
