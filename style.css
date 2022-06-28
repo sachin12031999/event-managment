@@ -1,11 +1,11 @@
 .navbar {
-    /* padding: px; */
+    padding: 0.41vh;
 
 }
 
 
 .navbar-nav {
-    padding-left: 2vw;
+    padding-left: 200px;
     align-items: flex-end;
 
 }
@@ -22,7 +22,7 @@
 }
 
 .nav-item:hover {
-    transform: translateY(-20px) skew(#dc3445);
+    transform: translateY(-2px);
     background: #dc3445;
     font-size: large;
     text-align: center;
@@ -31,15 +31,25 @@
 
     cursor: pointer;
 }
+.login{
+    margin-left: 300px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-display: inherit;
+    cursor: pointer;
+   background: transparent;
+   color: #000;
+   border-radius: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 20px;
+}
 
-/* .navbar-brand{
-    font-weight: bold;
-    font-style: italic;
-    padding-left: 150px;
-    font-size: 50px;
-    text-transform: capitalize;
+.login:hover{
+    transform:none
+}
 
-} */
 .navbar-brand {
     position: relative;
     font-family: Impact;
@@ -55,7 +65,7 @@
     font-style: italic;
     padding-left: 20px;
     padding-right: 200px;
-    font-size: 50px;
+    font-size: 25px;
     text-transform: uppercase;
 }
 
@@ -107,11 +117,18 @@
 
 }
 
-aside {
-    width: 30%;
-    padding-left: 15px;
-    margin-left: 15px;
-    float: right;
+.header .img-content h2{
+    font-weight: bold;
     font-style: italic;
-    background-color: transparent;
+    font-size: 60px;
+    margin-bottom: 20px !important;
+    color: whitesmoke
+
 }
+.header .img-content span{
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 0.2px;
+}
+
