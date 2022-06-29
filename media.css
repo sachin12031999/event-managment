@@ -43,3 +43,86 @@ body {
       }
 
   }
+  
+.navbar {
+    padding: 0.41vh;
+    transition: 0.8s;
+
+
+}.navbar.scroll{
+    background: #3498db;
+}
+
+
+
+.navbar-nav {
+    padding-left: 200px;
+    display: flex;  
+ 
+
+}
+
+.nav-item {
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: #fff !important;
+    margin-left: 30px;
+    transition: 0.5s;
+    border-radius: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.nav-item:hover {
+    transform: translate(1px);
+    background: #dc3445;
+    font-size: large; 
+    text-align: center;
+    color: #000;
+   
+
+    
+}
+.Account{
+    margin-left: 300px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-display: inherit;
+    cursor: pointer;
+   background: transparent;
+   color: #000;
+}
+.Account:hover{
+    transform:none
+}
+
+.navbar-brand {
+    position: relative;
+    font-family: Impact;
+    letter-spacing: 2px;
+    background: linear-gradient(100deg, pink, #ff0000, #fff, green, red);
+    background-repeat: repeat;
+    background-color: #fff;
+    background-size: 80%;
+    animation: animate 25s infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 40px;
+    padding-right: 200px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+
+    100% {
+        background-position: 500%;
+    }
+}

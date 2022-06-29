@@ -329,7 +329,7 @@ a.nav-link {
   background-color: rgba(0, 0, 0, 0.5);
 }
 #home-header #home-header--bg-image {
-  background-image: url("../media/images/home-header-1.jpg");
+  background-image: url("https://source.unsplash.com/1600x1600/?hotel,hall");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
