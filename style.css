@@ -157,7 +157,7 @@
     font-size: 20px;
     margin-bottom: 5px;
     text-align: center;
-    
+
 }
 .event-content span{
     font-weight: bold;
@@ -183,5 +183,10 @@
 }
 .event .col-sm-5{
     margin-bottom: 200px !important;
-    
+
+}
+.dropdown{
+    align-items: flex-end;
+    margin-left: 200px !important;
+    position: -ms-page;
 }
