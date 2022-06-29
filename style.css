@@ -193,16 +193,22 @@
     
 }
 
-.Account{
+.sachin{
+    list-style:none ; border-radius: 100px; margin-left: 350px;
+}
+
+.account {
     width: 100%;
     padding-left: 15px;
     margin-left: 15px;
     float: none;
     font-style: italic;
-    background-color: wheat;
+    background-color: #f8f9fa;
     color: #000;
     list-style: none;
+
 }
+
 
 ::after, ::before {
     box-sizing: border-box;
