@@ -15,6 +15,7 @@
 
 .navbar-nav {
     padding-left: 200px;
+    display: flex;  
  
 
 }
@@ -189,4 +190,20 @@
     align-items: flex-end;
     margin-left: 200px !important;
     position: -ms-page;
+    
+}
+
+.Account{
+    width: 100%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: none;
+    font-style: italic;
+    background-color: wheat;
+    color: #000;
+    list-style: none;
+}
+
+::after, ::before {
+    box-sizing: border-box;
 }
