@@ -43,7 +43,7 @@ body {
     .navbar.scroll {
         background: red;
     }
-}
+
 .nav-item {
     font-weight: bold;
     font-style: italic;
@@ -74,4 +74,5 @@ body {
     padding-right: 200px;
     font-size: 10px;
     text-transform: uppercase;
+}
 }
