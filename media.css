@@ -47,24 +47,26 @@ body {
 .nav-item {
     font-weight: bold;
     font-style: italic;
-    text-align: justify;
+    text-align: center;
     color: #fff !important;
     /* margin-left: 3vw; */
-    transition: 0.5s;
+    /* transition: 0.5s; */
     /* border-radius: 50px; */
     text-transform: capitalize;
     cursor: pointer;
     /* font-size: 4px; */
+    padding-left: 0;
+    margin-left: 30vw;
     
 }
 .navbar-brand {
-    position: relative;
+    position: absolute;
     font-family: Impact;
     /* letter-spacing: 2px; */
     background: linear-gradient(100deg, pink, #ff0000, #fff, green, red);
     background-repeat: repeat;
-    background-color: #fff;
-    background-size: 80%;
+    /* background-color: #fff; */
+    /* background-size: 80%; */
     animation: animate 25s infinite;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
@@ -74,5 +76,20 @@ body {
     padding-right: 200px;
     font-size: 10px;
     text-transform: uppercase;
+    margin-right: 50vh;
+    
+
 }
+.sachin{
+font-size: 12px;
+margin-left: 27vw;
+    font-style: italic;
+    font-weight: bold;
+    font-display: inherit;
+    cursor: pointer;
+   background: whitesmoke;
+   color: black;
+   border-radius: 10px;
+   padding: 4px;
 }
+} 
