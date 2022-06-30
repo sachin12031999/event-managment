@@ -25,11 +25,12 @@
     font-style: italic;
     text-align: center;
     color: #fff !important;
-    margin-left: 30px;
+    margin-left: 3vw;
     transition: 0.5s;
     border-radius: 50px;
     text-transform: capitalize;
     cursor: pointer;
+    font-size: 20px;
     
 }
 
@@ -43,14 +44,15 @@
 
     
 }
-.Account{
-    margin-left: 300px;
-    font-style: oblique;
-    font-weight: bolder;
+.sachin{
+    margin-left: 33vw;
+    font-style: italic;
+    font-weight: bold;
     font-display: inherit;
     cursor: pointer;
    background: transparent;
    color: #000;
+   border-radius: 50px;
 }
 .Account:hover{
     transform:none
@@ -71,7 +73,7 @@
     font-style: italic;
     padding-left: 40px;
     padding-right: 200px;
-    font-size: 25px;
+    font-size: 50px;
     text-transform: uppercase;
 }
 
@@ -142,6 +144,7 @@
 .event{
     margin: 200px auto;
     
+    
 }
 
 .event-content{
@@ -183,7 +186,8 @@
     cursor: pointer;
 }
 .event .col-sm-5{
-    margin-bottom: 200px !important;
+    /* margin-bottom: 200px !important; */
+    margin-bottom: 40vh !important;
 
 }
 .dropdown{
@@ -193,9 +197,7 @@
     
 }
 
-.sachin{
-    list-style:none ; border-radius: 100px; margin-left: 350px;
-}
+
 
 .account {
     width: 100%;
@@ -210,4 +212,8 @@
 }
 ::after ::before {
     box-sizing: border-box;
+}
+.about{
+    align-content: center;
+    margin-left: 34vw;
 }
