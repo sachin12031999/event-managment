@@ -293,6 +293,7 @@
   .custom-room-cards .card-expanded .detail ul li span {
     color: rgba(0, 0, 0, 0.8);
   }
+
   #admin-header .navbar {
     height: 58px;
     border-bottom: 1px solid black;
@@ -316,9 +317,12 @@
       width: 200px;
       height: calc(100vh - 58px);
       flex-direction: column;
+      right: 0px;
+    padding-left: 0px;
+    bottom: 0px;
     }
     #admin-header .side-nav .nav-item {
-      margin: 0.5em;
+      margin: 0;
     }
   }
   
@@ -873,3 +877,9 @@
   .Account:hover{
     transform:none
   } */
+  element.style {
+    right: 0px;
+    padding-left: 0px;
+    height: 10000px;
+    bottom: 0px;
+} 
