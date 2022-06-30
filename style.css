@@ -52,7 +52,7 @@
     cursor: pointer;
    background: transparent;
    color: #000;
-   border-radius: 50px;
+   /* border-radius: 50px; */
 }
 .Account:hover{
     transform:none
