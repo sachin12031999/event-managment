@@ -45,7 +45,7 @@ a.nav-link {
   height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-image: url("../media/images/backgrounds/login-bg-1.jpg");
+  background-image: url("images/login-bg-1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,6 +59,8 @@ a.nav-link {
 .auth--wrapper .bg-image {
   padding: 58px;
   padding-top: 5em;
+  background-image: url(https://source.unsplash.com/900x900/?room,bed);
+  
 }
 .auth--wrapper .bg-image span {
   display: block;
@@ -106,9 +108,10 @@ a.nav-link {
 .auth--wrapper .form-wrapper .form-card .group img {
   display: block;
   height: 30px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
+  position: relative;
+
+  left: 19vw;
+    top: -4vh;
 }
 .auth--wrapper .form-wrapper .form-card h5 {
   color: grey;
