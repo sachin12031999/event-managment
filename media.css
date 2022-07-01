@@ -90,10 +90,13 @@ body {
         text-align-last: center;
     }
 
-    .row {
+    .pri{
         margin: 0;
         padding: 0;
-    }
+        text-align: center;
+       display: none;
+       visibility: hidden;
+    } 
 
     .col-sm-5 {
         -ms-flex: 0 0 41.666667%;
