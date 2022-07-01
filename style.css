@@ -142,7 +142,7 @@
 
 /* Event Section  */
 .event{
-    margin: 200px auto;
+    margin: 20px auto;
     
     
 }
@@ -187,7 +187,7 @@
 }
 .event .col-sm-5{
     /* margin-bottom: 200px !important; */
-    margin-bottom: 40vh !important;
+    margin-bottom: 30vh !important;
 
 }
 .dropdown{
