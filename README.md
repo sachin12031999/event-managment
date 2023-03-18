@@ -22,11 +22,11 @@ If you would like to contribute to this project, please fork the repository and 
 ### For more information about Event, please [visit website](https://sachin12031999.github.io/event-managment/event.html)
 
 ## Screenshots
-![screenshort PC](sareenshort/pc.png)
+![screenshort PC](screenshort/pc.png)
 
-![screenshort tab](sareenshort/pc.png)
+![screenshort tab](screenshort/pc.png)
 
-![screenshort mobile](sareenshort/pc.png)
+![screenshort mobile](screenshort/pc.png)
 
 ## Author
 
